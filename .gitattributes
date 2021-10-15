@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
-*.docx diff=pandoc
+*.doc diff=word
+*.xsl diff=excel
+*.xlsx diff=zip
+*.docx diff=zip
